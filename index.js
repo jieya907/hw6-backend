@@ -10,6 +10,7 @@ app.use(bodyParser.json())
 require('./src/articles.js')(app)
 require('./src/profile.js')(app)
 
+require('./src/auth.js')(app)
 // Get the port from the environment, i.e., Heroku sets it
 const port = process.env.PORT || 3000
 const server = app.listen(port, () => {
