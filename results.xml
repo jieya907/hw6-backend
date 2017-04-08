@@ -1,0 +1,11 @@
+
+> RiceBookServer@0.0.0 test /Users/jieya/Documents/Rice/Courses/Spring2017/431/comp431BackEnd
+> mocha --opts mocha.opts src/**/*.spec.js "--reporter" "xunit"
+
+<testsuite name="Mocha Tests" tests="5" failures="0" errors="0" skipped="0" timestamp="Sat, 08 Apr 2017 16:56:16 GMT" time="0.09">
+<testcase classname="Validate Article functionality" name="should give me three or more articles" time="0.043"/>
+<testcase classname="Validate Article functionality" name="should add two articles with successive article ids, and return the article each time" time="0.026"/>
+<testcase classname="Validate Article functionality" name="should return an article with a specified id" time="0.007"/>
+<testcase classname="Validate Article functionality" name="should return nothing for an invalid id" time="0.005"/>
+<testcase classname="Validate Profile functionality" name="should update the headlines" time="0.003"/>
+</testsuite>
