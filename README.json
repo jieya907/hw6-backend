@@ -1,5 +1,5 @@
-{ 
+{
     "netid": "jw46",
-    "backend": "https://gentle-hollows-55657.herokuapp.com/"
+    "frontend": "charming-crime.surge.sh",
+    "backend": "https://gentle-hollows-55657.herokuapp.com"
 }
-
